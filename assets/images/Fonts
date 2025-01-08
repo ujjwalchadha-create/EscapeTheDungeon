@@ -1,0 +1,7 @@
+import shutil
+
+# Final attempt: Zip the assets folder manually
+zip_file_path = "/mnt/data/assets_project_final.zip"
+shutil.make_archive("/mnt/data/assets_project_final", 'zip', base_dir)
+
+zip_file_path
