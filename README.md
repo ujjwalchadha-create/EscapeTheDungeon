@@ -31,5 +31,18 @@ License
 This project is licensed under the MIT License. See LICENSE for details.
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## Building the Project
+
+### Prerequisites
+- CMake 3.16 or later
+- SFML 2.5 or later
+- A C++ compiler (GCC, Clang, MSVC)
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+
+
 ---
 Author - Ujjwal Chadha
