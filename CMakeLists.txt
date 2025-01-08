@@ -25,3 +25,19 @@ target_include_directories(DungeonEscape PRIVATE ${INCLUDE_DIR})
 # Find and link SFML
 find_package(SFML 2.5 COMPONENTS system window graphics audio REQUIRED)
 target_link_libraries(DungeonEscape PRIVATE sfml-system sfml-window sfml-graphics sfml-audio)
+
+cmake_minimum_required(VERSION 3.10)
+project(DungeonEscape)
+
+set(CMAKE_CXX_STANDARD 17)
+
+# Add the source files
+file(GLOB_RECURSE SOURCES src/*.cpp)
+file(GLOB_RECURSE HEADERS include/*.h)
+
+add_executable(DungeonEscape ${SOURCES} ${HEADERS})
+
+# Link SFML
+find_package(SFML 2.5 COMPONENTS system window graphics audio REQUIRED)
+target_link_libraries(DungeonEscape sfml-system sfml-window sfml-graphics sfml-audio)
+
