@@ -29,5 +29,7 @@ Feel free to fork this repository, create new features, or fix issues. Pull requ
 
 License
 This project is licensed under the MIT License. See LICENSE for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 ---
 Author - Ujjwal Chadha
