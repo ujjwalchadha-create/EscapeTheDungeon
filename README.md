@@ -1,10 +1,7 @@
 # EscapeTheDungeon
 A 2D dungeon escape game built with C++ and SFML.
 <br>
-Here’s a concise structure for the README:
-
-markdown
-Copy code
+#About:
 # Dungeon Escape - Adventures
 
 A 2D dungeon escape game developed using C++ and SFML. Dive into thrilling challenges, avoid traps, and find your way to freedom!
