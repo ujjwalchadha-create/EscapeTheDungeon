@@ -37,3 +37,36 @@ Dive into thrilling challenges, avoid traps, and uncover hidden treasures to esc
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/ujjwalchadha-create/EscapeTheDungeon.git
+
+2. **Configure and Build the Project**:
+   -Use CMake to generate the project files.
+   -Compile the code using your C++ compiler.
+   
+4. **Run the Game**:
+   -Launch the game and experience the thrill!
+   
+---
+
+## Gameplay Preview
+
+### Screenshot
+
+-![Gameplay Screenshot](C:/Users/ujjwa/OneDrive/Pictures/Screenshots 1/Screenshot 2025-01-04 131429.png)
+
+## License
+
+This project is licensed under the MIT License.
+<br>
+See the LICENSE file for details.
+
+## Contributing
+
+**We welcome contributions**!
+   -Feel free to fork this repository, report issues, or propose new features.
+   -Pull requests are always appreciated.
+
+## Author
+
+**Ujjwal Chadha**
+<br>
+Bringing ideas to life with C++ and SFML.
