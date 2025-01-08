@@ -4,11 +4,12 @@ A 2D dungeon escape game built with C++ and SFML.
 
 ## Dungeon Escape - Adventures
 
-Dive into thrilling challenges, avoid traps, and find your way to freedom!
+A 2D dungeon escape game developed using C++ and SFML. Dive into thrilling challenges, avoid traps, and find your way to freedom!
 
 ---
 
 ## Features
+
 - Procedurally generated dungeon layouts.
 - Player movement and collision detection.
 - Real-time rendering of walls, traps, and the exit.
@@ -16,40 +17,25 @@ Dive into thrilling challenges, avoid traps, and find your way to freedom!
 
 ---
 
-## Preview
-
-Here’s a sneak peek of Dungeon Escape:
-
-![Gameplay Screenshot](assets/images/gameplay_screenshot.png)
-
----
-
-## Demo
-
-Watch a short gameplay demo:
-
-[![Watch the Demo](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://youtu.be/dQw4w9WgXcQ)
-
----
-
 ## Getting Started
 
 ### Prerequisites
-- Install [SFML Library](https://www.sfml-dev.org/) for C++.
+- Install [SFML Library](https://www.sfml-dev.org/download.php) for C++.
 - A C++ IDE (e.g., Visual Studio Code or CLion).
 
 ---
 
-## Installation
+### Installation
 
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/<your-username>/DungeonEscape-Adventures.git
 Set up SFML in your development environment as per the SFML Documentation.
-
 Compile the code with SFML linked.
-
 Run the executable and enjoy the game!
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 Building the Project
 Prerequisites
@@ -61,18 +47,22 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/<your-username>/DungeonEscape-Adventures.git
-Follow the build instructions in BUILD.md.
+git clone https://github.com/ujjwalchadha-create/EscapeTheDungeon.git
+Configure and build the project using CMake.
 
-How to Play
-See the Game Manual for detailed gameplay instructions.
+Compile and link the SFML library.
 
-Contribution Guidelines
-We welcome contributions to enhance Dungeon Escape! See the CONTRIBUTING.md file for more details.
+Run the game!
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+Gameplay Preview
+Screenshot
+![Gameplay Screenshot](C:/Users/ujjwa/OneDrive/Pictures/Screenshots 1/Screenshot 2025-01-04 131429.png)
 
-Acknowledgments
-Built using SFML.
-Thanks to all contributors for their support!
+Experience the thrill of navigating challenging dungeons, avoiding traps, and collecting treasures to escape!
+
+Contributing
+Feel free to fork this repository, create new features, or fix issues. Pull requests are welcome!
+
+Author
+Ujjwal Chadha
+Bringing ideas to life with C++ and SFML.
