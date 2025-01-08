@@ -1,0 +1,28 @@
+import os
+
+# Directory structure for assets
+base_dir = "/mnt/data/assets/"
+image_dir = os.path.join(base_dir, "images")
+sound_dir = os.path.join(base_dir, "sounds")
+font_dir = os.path.join(base_dir, "fonts")
+
+# Create directories
+os.makedirs(image_dir, exist_ok=True)
+os.makedirs(sound_dir, exist_ok=True)
+os.makedirs(font_dir, exist_ok=True)
+
+# Placeholder files for each category
+placeholder_files = {
+    image_dir: ["character.png", "background.png"],
+    sound_dir: ["jump.wav", "background-music.mp3"],
+    font_dir: ["game-font.ttf"]
+}
+
+# Create placeholder files
+for folder, files in placeholder_files.items():
+    for file_name in files:
+        with open(os.path.join(folder, file_name), "w") as f:
+            f.write(f"This is a placeholder for {file_name}.")
+
+# Verify created directories and files
+os.listdir(base_dir)
