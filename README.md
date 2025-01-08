@@ -62,7 +62,9 @@ See the LICENSE file for details.
 ## Contributing
 
 **We welcome contributions**!
+<br>
    -Feel free to fork this repository, report issues, or propose new features.
+   <br>
    -Pull requests are always appreciated.
 
 ## Author
